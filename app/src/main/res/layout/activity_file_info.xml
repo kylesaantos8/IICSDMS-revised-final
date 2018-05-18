@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/profileTextHolder_style"
+                android:id="@+id/refnouploadby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reference Number/ UploadBy" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/profileText_style"
+                    android:id="@+id/reference"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3366BB"
+                    android:text="" />
+
+                <TextView
+                    style="@style/profileText_style"
+                    android:id="@+id/created_by"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                style="@style/profileTextHolder_style"
+                android:id="@+id/fromto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="From/ To" />
+
+            <TextView
+                style="@style/profileText_style"
+                android:id="@+id/source_recipient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                style="@style/profileTextHolder_style"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="File attached" />
+
+            <TextView
+                style="@style/profileText_style"
+                android:id="@+id/file_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3366BB"
+                android:text="" />
+
+            <TextView
+                style="@style/profileTextHolder_style"
+                android:id="@+id/timerectimesent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time received/ Time sent" />
+
+            <TextView
+                style="@style/profileText_style"
+                android:id="@+id/time_stamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                style="@style/profileTextHolder_style"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type and category" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/profileText_style"
+                    android:id="@+id/type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:text="" />
+
+                <TextView
+                    style="@style/profileText_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:text=" Document , " />
+
+                <TextView
+                    style="@style/profileText_style"
+                    android:id="@+id/category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                style="@style/profileTextHolder_style"
+                android:id="@+id/descstatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description/ Status" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/profileText_style"
+                    android:id="@+id/desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+
+                <TextView
+                    style="@style/profileText_style"
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="true"
+                    android:textStyle="italic"
+                    android:text=""/>
+
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/profileTextHolder_style"
+                android:id="@+id/action_required_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Action required" />
+
+            <TextView
+                style="@style/profileText_style"
+                android:id="@+id/action_required"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                style="@style/profileTextHolder_style"
+                android:id="@+id/action_due_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Action due" />
+
+            <TextView
+                style="@style/profileText_style"
+                android:id="@+id/action_due"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                style="@style/profileTextHolder_style"
+                android:id="@+id/notif_status_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Read by:" />
+
+            <TextView
+                style="@style/profileText_style"
+                android:id="@+id/notif_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+
+
+
+
+            <!--<TextView-->
+                <!--style="@style/profileTextHolder_style"-->
+                <!--android:id="@+id/fileDescriptionHolder"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="About" />-->
+
+            <!--<TextView-->
+                <!--style="@style/profileText_style"-->
+                <!--android:id="@+id/description"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/dateModified" />-->
+
+            <!--<TextView-->
+                <!--style="@style/profileTextHolder_style"-->
+                <!--android:id="@+id/dateCreatedHolder"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Date created" />-->
+
+            <!--<TextView-->
+                <!--style="@style/profileText_style"-->
+                <!--android:id="@+id/dateCreated"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/dateCreated" />-->
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

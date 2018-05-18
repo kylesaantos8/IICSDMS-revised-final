@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/itemDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="3"/>
+
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:id="@+id/itemAttach"
+                android:layout_width="68dp"
+                android:layout_height="23dp" />
+
+            <TextView
+                android:id="@+id/itemTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="3 hours ago"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/itemPage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text=""
+                    android:textSize="16sp"
+                    android:textStyle="italic"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/itemTime"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:textSize="14sp"-->
+        <!--android:textStyle="bold" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/itemAttach"-->
+        <!--android:layout_width="75dp"-->
+        <!--android:layout_height="30dp"-->
+    <!--android:layout_below="@+id/itemTime"-->
+    <!--android:layout_alignParentRight="true" />-->
+
+
+</RelativeLayout>

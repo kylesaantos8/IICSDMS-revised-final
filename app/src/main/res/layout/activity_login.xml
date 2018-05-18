@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    style="@style/background_style">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ustLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                app:srcCompat="@drawable/ust_logo" />
+
+            <ImageView
+                android:id="@+id/iicsLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                app:srcCompat="@drawable/iics_icon" />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            style="@style/headTitle_style"
+            android:id="@+id/headTitle"
+            android:text="IICS" />
+
+        <EditText
+            style="@style/editText_style"
+            android:id="@+id/loginEmail"
+            android:inputType="textEmailAddress"
+            android:hint="ex@mple.com"/>
+
+        <EditText
+            style="@style/editText_style"
+            android:id="@+id/loginPassword"
+            android:inputType="textPassword"
+            android:hint="password"/>
+
+        <Button
+            style="@style/button_style"
+            android:id="@+id/button_login"
+            android:text="Log In"
+            android:onClick="OnLogin"/>
+
+        <TextView
+            style="@style/forgotPassword_style"
+            android:id="@+id/forgotPassword"
+            android:autoLink="web"
+            android:text="Forgot your login details? Get help signing in" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

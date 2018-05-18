@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.iicsdms.tris.iicsdms2.MainActivity">
+
+    <!--<include layout="@layout/toolbar_layout"/>-->
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<android.support.design.widget.TabLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/tabs"-->
+            <!--android:background="#C12E47">-->
+
+        <!--</android.support.design.widget.TabLayout>-->
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <!--<android.support.v4.ViewPager-->
+        <!--android:id="@+id/content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--layout_weight="1">-->
+
+    <!--</android.support.v4.ViewPager>-->
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </RelativeLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#C12E47"
+        app:itemIconTint="@drawable/bnv_tab_item_foreground"
+        app:itemTextColor="@drawable/bnv_tab_item_foreground"
+        app:menu="@menu/navigation" />
+
+    <!--<com.aurelhubert.ahbottomnavigation.AHBottomNavigation-->
+        <!--android:id="@+id/navigation"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:background="#C12E47"-->
+        <!--app:itemIconTint="@drawable/bnv_tab_item_foreground"-->
+        <!--app:itemTextColor="@drawable/bnv_tab_item_foreground"-->
+        <!--app:menu="@menu/navigation" />-->
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom">-->
+
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/navigation"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#C12E47">-->
+            <!---->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:weightSum="100"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@id/navigation_calendar"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="25"-->
+                    <!--android:src="@drawable/ic_date_range_black_24dp"-->
+                    <!--/>-->
+
+                <!--<ImageView-->
+                    <!--android:id="@id/navigation_inbox"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="25"-->
+                    <!--android:src="@drawable/ic_mail_outline_black_24dp"/>-->
+
+                <!--<ImageView-->
+                    <!--android:id="@id/navigation_documents"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="25"-->
+                    <!--android:src="@drawable/ic_archive_black_24dp"/>-->
+
+                <!--<ImageView-->
+                    <!--android:id="@id/navigation_profile"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="25"-->
+                    <!--android:src="@drawable/ic_account_box_black_24dp"/>-->
+
+            <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.Toolbar>-->
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+</LinearLayout>

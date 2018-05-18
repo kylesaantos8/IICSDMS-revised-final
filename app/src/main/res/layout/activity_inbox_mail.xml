@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="From: "
+                        android:textAllCaps="true"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/mailUser"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="//User"
+                        android:textSize="18sp"
+                        android:textColor="#368cf4"/>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c6c3c3"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="ISO: "
+                    android:textAllCaps="true"
+                    android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/mailIso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="//ISO"
+                        android:textAllCaps="true"
+                        android:textStyle="italic"
+                        android:textSize="16sp"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c6c3c3"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="A.Y. "
+                    android:textAllCaps="true"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/mailYr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="//Acad YEAR"
+                    android:textAllCaps="true"
+                    android:textStyle="italic"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c6c3c3"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Subject: "
+                        android:textAllCaps="true"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/mailSubject"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="//Subject"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:ellipsize="end"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: "
+                        android:textAllCaps="true"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/mailTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="//Time"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:ellipsize="end"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c6c3c3"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Mail Type: "
+                        android:textAllCaps="true"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/mailType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Letter"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardElevation="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <com.github.barteksc.pdfviewer.PDFView
+                    android:id="@+id/pdf"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:adjustViewBounds="true" />
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <TextView
+                    android:id="@+id/disclaimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Disclaimer: Clicking 'Acknowledge' states that the recipient has read and understood the document to comply."/>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:layout_gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="#C12E47">
+
+
+            <Button
+                android:id="@+id/ack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textAllCaps="true"
+                android:textSize="14dp"
+                android:textColor="#FFF"
+                android:background="#e8cd54"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="8dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="Acknowledge"/>
+
+            <Button
+                android:id="@+id/download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textSize="14dp"
+                android:background="#368cf4"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:textColor="#FFF"
+                android:text="download"/>
+        </LinearLayout>
+
+</LinearLayout>

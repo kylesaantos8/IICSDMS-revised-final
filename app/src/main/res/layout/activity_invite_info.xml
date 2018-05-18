@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/eventNameHolder"
+                    style="@style/profileTextHolder_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Event name" />
+
+                <TextView
+                    android:id="@+id/inviteTitle"
+                    style="@style/profileText_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eventName" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/eventVenueHolder"
+                    style="@style/profileTextHolder_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Venue" />
+
+                <TextView
+                    android:id="@+id/inviteVenue"
+                    style="@style/profileText_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eventVenue" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/eventStartHolder"
+                    style="@style/profileTextHolder_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Start time" />
+
+                <TextView
+                    android:id="@+id/inviteStartTime"
+                    style="@style/profileText_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/startTime" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/eventEndHolder"
+                    style="@style/profileTextHolder_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="10dp"
+                    android:text="End Time" />
+
+                <TextView
+                    android:id="@+id/inviteEndTime"
+                    style="@style/profileText_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/endTime" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/eventDetailsHolder"
+                style="@style/profileTextHolder_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Event details" />
+
+            <TextView
+                android:id="@+id/inviteDetails"
+                style="@style/profileText_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eventDetails" />
+
+            <TextView
+                android:id="@+id/eventStatusHolder"
+                style="@style/profileTextHolder_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status" />
+
+            <TextView
+                android:id="@+id/inviteStatus"
+                style="@style/profileText_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eventResponse" />
+
+            <TextView
+                android:id="@+id/eventResponseHolder"
+                style="@style/profileTextHolder_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Response" />
+
+            <TextView
+                android:id="@+id/inviteResponse"
+                style="@style/profileText_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eventResponse" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="#C12E47">
+
+
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textAllCaps="true"
+            android:textSize="14dp"
+            android:textColor="#FFF"
+            android:background="#43a047"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Accept"/>
+
+        <Button
+            android:id="@+id/decline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textSize="14dp"
+            android:background="#f44336"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textColor="#FFF"
+            android:text="Decline"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

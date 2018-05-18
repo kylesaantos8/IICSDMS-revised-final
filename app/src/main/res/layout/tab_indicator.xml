@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="55dp"
+    android:layout_weight="1"
+    android:background="#fff"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_tab_txt"
+            style="?android:attr/tabWidgetStyle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_gravity="bottom"
+             />
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="4dp"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:background="#df5c8a" />-->
+    </LinearLayout>
+
+    <View
+
+        android:layout_width=".5dp"
+        android:id="@+id/tabs_divider_view"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#888" />
+
+</LinearLayout>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item-->
+        <!--android:id="@+id/navigation_calendar"-->
+        <!--android:icon="@drawable/ic_date_range_black_24dp"-->
+        <!--android:title="@string/title_calendar"-->
+        <!--/>-->
+
+    <item
+        android:id="@+id/navigation_inbox"
+        android:icon="@drawable/ic_announcement_black_24dp"
+        android:title="@string/title_notification"
+        />
+
+    <item
+        android:id="@+id/navigation_documents"
+        android:icon="@drawable/ic_archive_black_24dp"
+        android:title="@string/title_documents"
+        />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="@string/title_profile"
+        />
+
+</menu>

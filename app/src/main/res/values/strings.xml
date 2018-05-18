@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">IICS DMS</string>
+    <string name="title_notification">Notifications</string>
+    <string name="title_documents">Documents</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- url to be used /local/ -->
+     
+    <string name="login_url">http://192.168.2.17:80/login.php</string>
+    <string name="profile_url">http://192.168.2.17:80/profile.php</string>
+    <string name="notif_url">http://192.168.2.17:80/notif.php</string>
+    <string name="notif_service_url">http://192.168.2.17:80/notif_service.php</string>
+    <string name="notif_thread_url">http://192.168.2.17:80/notif_threading.php</string>
+    <string name="doc_url">http://192.168.2.17:80/doc.php</string>
+    <string name="doc_view_url">http://192.168.2.17:80/docView.php</string>
+    <string name="doc_thread_url">http://192.168.2.17:80/doc_thread.php</string>
+    <string name="doc_info_url">http://192.168.2.17:80/docInfo.php</string>
+    <string name="seen_url">http://192.168.2.17:80/seen.php</string>
+    <string name="seen_update_url">http://192.168.2.17:80/seen_update.php</string>
+    <string name="logs_log">http://192.168.2.17:80/logs_log.php</string>
+    <string name="logs_url">http://192.168.2.17:80/logs.php</string>
+    <string name="email_dept_url">http://192.168.2.17:80/email_department.php</string>
+    <string name="forward_doc_url">http://192.168.2.17:80/forward_doc.php</string>
+    <string name="forward_doc_id_url">http://192.168.2.17:80/forward_doc_id.php</string>
+    <string name="forward_doc_update_url">http://192.168.2.17:80/forward_doc_update.php</string>
+    <string name="thread_num_url">http://192.168.2.17:80/thread_num.php</string>
+    <string name="update_thread_num_url">http://192.168.2.17:80/update_thread_num.php</string>
+    <string name="notif_forward_url">http://192.168.2.17:80/notify_frwrdd_docu.php</string>
+    <string name="notif_list_url">http://192.168.2.17:80/notify_list.php</string>
+    <string name="notif_list2_url">http://192.168.2.17:80/notify_list2.php</string>
+    <string name="notif_list3_url">http://192.168.2.17:80/notify_list3.php</string>
+    <string name="notif_id_url">http://192.168.2.17:80/notify_id.php</string>
+    <string name="seen_track_url">http://192.168.2.17:80/seen_track.php</string>
+    <string name="seen_track_name_url">http://192.168.2.17:80/seen_track_name.php</string>
+    <string name="email_dept2_url">http://192.168.2.17:80/email_department2.php</string>
+    <string name="get_dept_url">http://192.168.2.17:80/get_dept.php</string>
+    <!-- url to be used deployed -->
+    <!--<string name="login_url">http://ustiics-dms.me/login.php</string>-->
+    <!--<string name="profile_url">http://ustiics-dms.me/profile.php</string>-->
+    <!--<string name="notif_url">http://ustiics-dms.me/notif.php</string>-->
+    <!--<string name="notif_service_url">http://ustiics-dms.me/notif_service.php</string>-->
+    <!--<string name="doc_url">http://ustiics-dms.me/doc.php</string>-->
+    <!--<string name="doc_view_url">http://ustiics-dms.me/docView.php</string>-->
+    <!--<string name="doc_thread_url">http://ustiics-dms.me/doc_thread.php</string>-->
+    <!--<string name="doc_info_url">http://ustiics-dms.me/docInfo.php</string>-->
+    <!--<string name="seen_url">http://ustiics-dms.me/seen.php</string>-->
+    <!--<string name="seen_update_url">http://ustiics-dms.me/seen_update.php</string>-->
+    <!--<string name="logs_log">http://ustiics-dms.me/logs_log.php</string>-->
+    <!--<string name="logs_url">http://ustiics-dms.me/logs.php</string>-->
+    <!--<string name="notif_thread_url">http://192.168.2.17:80/notif_thread.php</string>-->
+
+    <string name="forget_password">http://ustiics-dms.herokuapp.com/</string>
+
+    <!--log sentences-->
+    <string name="login">User has successfully logged in to the system</string>
+    <string name="logout">User has successfully logged out from the system</string>
+
+    <!--<string name="forward_to">Forwarded to </string>-->
+    <!--<string name="forward_from">Forwarded from </string>-->
+    <string name="forward_from">Forwarded: </string>
+
+    <string name="notif_inc_forward"> has forwarded an incoming document, </string>
+    <string name="notif_inc_upload"> has uploaded a new incoming document, </string>
+    <string name="notif_out_upload"> has uploaded a new outgoing document, </string>
+    <string name="notif_note">\'s note has been updated by </string>
+    <string name="notif_done"> has been marked as done by </string>
+
+    <string-array name="doc_filter">
+        <item>All Documents</item>
+        <item>Incoming Documents</item>
+        <item>Outgoing Documents</item>
+        <item>Personal Documents</item>
+        <item>Archived Documents</item>
+    </string-array>
+
+
+
+    <!--to be deleted-->
+    <string name="type">System</string>
+    <string name="action_settings">Logout</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="inbox_view_url">http://192.168.254.113:80/inbox_mail.php</string>
+    <string name="inbox_url">http://192.168.254.113:80/inbox.php</string>
+    <string name="mail_url">http://192.168.254.113:80/mail.php</string>
+    <string name="sent_mail_url">http://192.168.254.113:80/sent_mail.php</string>
+    <string name="invite_url">http://192.168.254.113:80/invite.php</string>
+    <string name="invite_seen_url">http://192.168.254.113:80/invite_response.php</string>
+    <string name="invite_response_url">http://192.168.254.113:80/inv_resp_check.php</string>
+    <!--//-->
+    <string name="cal_inv_url">http://192.168.254.113:80/calendar_invite.php</string>
+
+    <string name="seen_update_url1">http://192.168.254.113:80/seen_update1.php</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Calendar blank fragment</string>
+    <string name="profile_blank_fragment">Profile blank fragment TEST</string>
+
+    <!-- Profile -->
+    <string name="fullName">Juan C. Dela Cruz</string>
+    <string name="email">juancdelacruz@ust.edu.ph</string>
+    <string name="department">Information Technology</string>
+
+    <!-- File Info -->
+    <string name="fileName">NetworkTests.doc</string>
+    <string name="fileType">.doc</string>
+    <string name="fileSize">74.2 KB</string>
+    <string name="author">Office of Student Affairs</string>
+    <string name="dateModified">07-04-2017</string>
+    <string name="dateCreated">05-29-2017</string>
+
+    <!-- Mail Info -->
+
+
+    <!-- Invite Info -->
+    <string name="eventName">IT Faculty Meeting</string>
+    <string name="eventVenue">Consulation Room</string>
+    <string name="startTime">11/20/17 1:00PM</string>
+    <string name="endTime">11/20/17 2:00PM</string>
+    <string name="eventDetails">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="eventResponse">Will be going</string>
+
+    <!--Profile Info-->
+
+    <string name="email_">Email</string>
+    <string name="num">Faculty Number</string>
+    <string name="name">Name</string>
+    <string name="dept">Department</string>
+    <!--<string name="type">User Type</string>-->
+    <string name="created_since">Created Since</string>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/frag_notif"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/list"
+                android:name="com.iicsdms.tris.iicsdms2.InboxFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layoutManager="LinearLayoutManager"
+                tools:context="com.iicsdms.tris.iicsdms2.NotificationFragment"
+                tools:listitem="@layout/list_notif" />
+
+            <TextView
+                android:id="@+id/empty_view_notif"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="gone"
+                android:textSize="20dp"
+                android:text="No data available" />
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+
+
+</LinearLayout>
